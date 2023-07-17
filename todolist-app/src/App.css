@@ -1,0 +1,177 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  background-image: url(Images/Loginb.jpg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.home-header {
+  background-image: url(Images/Regb.jpg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white
+
+}
+
+.reg-header {
+  background-image: url(Images/homeb.jpg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white
+
+
+}
+
+.red {
+  color: #000000;
+  background-color: #ff0000;
+  cursor: pointer;
+
+}
+
+.yellow {
+  color: #050505;
+  background-color: #ffd000;
+  cursor: pointer;
+
+}
+.Green {
+  color: #000000;
+  background-color: #43e711;
+  cursor: pointer;
+}
+.add {
+  color: #060707;
+  background-color: #11cee7;
+
+
+}
+
+.add:hover{ 
+  background-color: #ff0d0d;
+  color: black;
+}
+
+.red:hover{
+  color: #ffffff;
+  background-color: #ff0000;
+  cursor: pointer;
+
+}
+
+.yellow:hover{
+  color: #050505;
+  background-color: #ffd000;
+  cursor: pointer;
+
+}
+
+.Green:hover{
+  color: #000000;
+  background-color: #43e711;
+  cursor: pointer;
+
+}
+.priorityRed {
+  
+  font-size: x-large;
+
+}
+.priorityYellow {
+  
+  font-size: x-large;
+
+}
+.priorityGreen {
+
+  font-size: x-large;
+}
+.YellowDot{
+
+  font-size: 300%;
+  font-weight: 900;
+  position: relative;
+  left: 160px;
+  color: #ffd000;
+
+
+}
+
+.mediumButtons{
+
+  position: relative;
+  left: 250px;
+  box-shadow: #ffd103;
+  
+}
+
+.GreenDot{
+
+  font-size: 300%;
+  font-weight: 900;
+  position: relative;
+  left: 160px;
+  color: #43e711;
+
+}
+
+.largeButtons{
+
+  position: relative;
+  left: 250px;
+  box-shadow: #ffd103;
+
+}
+
+.RedDot{
+
+  font-size: 300%;
+  font-weight: 900;
+  position: relative;
+  left: 160px;
+  color: #f10909;
+
+}
+
+.lowButtons {
+  position: relative;
+  left: 250px;
+  box-shadow: #ffd103;
+
+}
+.Homeheader {
+
+  font-weight: 900;
+}
+
+
+
+
